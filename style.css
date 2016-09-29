@@ -1,0 +1,25 @@
+body {
+    line-height: 1.4;
+    max-width: 50em;
+    margin: 2.5em auto;
+    padding: 0 2em;
+    background-color: #333;
+    color: #ccc;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-style: italic;
+}
+
+li {
+    list-style-type: square;
+}
+
+a {
+    color: #fca;
+}
+
+.hr {
+    border-bottom: 1px dotted white;
+}

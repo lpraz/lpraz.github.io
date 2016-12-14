@@ -1,11 +1,17 @@
 body {
+    background-image: url("img/bg.png");
+    margin: 0;
+}
+
+#content {
     line-height: 1.4;
     max-width: 50em;
-    margin: 2.5em auto;
-    padding: 0 2em;
-    background-color: #333;
-    color: #ccc;
-    font-family: sans-serif;
+    margin: 1em auto;
+    padding: 1em 2em;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
 }
 
 h3 {
@@ -17,9 +23,9 @@ li {
 }
 
 a {
-    color: #fca;
+    color: #333;
 }
 
 .hr {
-    border-bottom: 1px dotted white;
+    border-bottom: 1px solid black;
 }

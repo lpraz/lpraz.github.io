@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Logan Praznik, a software developer based out of Brandon, Manitoba. I
+currently work for [MASC][masc] as a Programmer Analyst. I hold a Bachelor of
+Science (with honours) in Computer Science from [Brandon University][brandonu].
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This blog is for observing things I run into as I continue to learn the craft
+of programming and all it has to offer. It is useful to me as a tool for
+remembering what I learn, and I hope that it proves useful to others as well,
+in whatever way(s) it may.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The content of this blog is my own, and does not represent the opinions of
+anyone else, including, but not limited to, my current and/or past employers.
 
-
-[jekyll-organization]: https://github.com/jekyll
+[masc]: https://masc.mb.ca/
+[brandonu]: https://brandonu.ca

@@ -25,7 +25,7 @@ github_username:  lpraz
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima Using local theme
 plugins:
   - jekyll-feed
 

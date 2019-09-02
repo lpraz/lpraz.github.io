@@ -4,7 +4,7 @@ title: "Effects in Hyperapp V2"
 date: 2019-07-19 14:15:00 -0500
 categories: javascript hyperapp
 ---
-Web apps written in [Hyperapp V2][hyperapp] are based primarily on a single, global state, and a set of actions that transform that state (or, return a new state based on the old one). This is good for keeping code simple, but what if you need to do something that produces a side effect, like calling a web API, generating a random number, or so on? This is where effects come in.
+Web apps written in [Hyperapp V2][hyperapp] are based primarily on a single, global state, and a set of actions that transform that state (or return a new state based on the old one). This is good for keeping code simple, but what if you need to do something that produces a side effect, like calling a web API, generating a random number, or so on? This is where effects come in.
 
 Before I continue, [Jorge Bucaran's GitHub issue regarding effects in Hyperapp V2][bucaran] was massively helpful to me in understanding this. Go read it if this post doesn't help you. There already exists a sizeable library of Hyperapp effects in [`hyperapp-fx`][hyperapp-fx] for doing common things that involve side effects, so it's not strictly necessary that you implement your own. However, if you run into something that requires a side effect and doesn't have a Hyperapp effect written for it, or you just want to learn how effects work "under the hood" regardless, read on.
 
@@ -31,6 +31,7 @@ This isn't strictly necessary, but it makes our code look a bit cleaner. Instead
 const someAction = () => [
     { /* state before effect */ },
     [somethingEffect, { /* props */ }]
+]
 ```
 
 ...we can call it like this:

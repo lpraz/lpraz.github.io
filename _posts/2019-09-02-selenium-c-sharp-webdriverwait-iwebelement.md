@@ -24,14 +24,14 @@ public class Modal
 
 In fact, this is how I start out a lot of page objects (I'll save any further detail for another article).
 
-Nearly every Bootstrap modal has a "x" button in the top-right corner for closing the modal. To be able to close modals from this page object, we'll add a `Close()` method that clicks on that button and waits for the modal to be invisible. We want it to look something like this:
+Nearly every Bootstrap modal has a "x" button in the top-right corner for closing the modal. To be able to close modals from this page object, we'll add a `Close()` method that clicks on that button and waits for the modal to not be displayed. We want it to look something like this:
 
 ```csharp
 public void Close()
 {
     _root.FindElement(By.ClassName("close")).Click();
     // uh-oh...
-    new WebDriverWait(_root, TimeSpan.FromSeconds(1)).Until(e => !e.Visible);
+    new WebDriverWait(_root, TimeSpan.FromSeconds(1)).Until(e => !e.Displayed);
 }
 ```
 

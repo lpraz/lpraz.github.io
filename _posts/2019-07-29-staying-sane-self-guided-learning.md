@@ -2,7 +2,7 @@
 layout: post
 title: "Staying Sane During Self-Guided Learning"
 date: 2019-07-29 21:00:00 -0500
-categories: soft-skills
+categories: soft-skills learning
 ---
 Continuous learning is, of course, essential to any career. In fact, it may be unavoidable in daily life: when was the last time you learned something from experience, even though you didn't actively seek out that knowledge? However, for a career in software development, many say deliberately staying up to date with the software development landscape is necessary if you want to stay in the workforce.
 

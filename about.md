@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Leila Praznik (she/they), a software developer in Brandon, Manitoba. I
+I am Leila Praznik (she/her), a software developer in Brandon, Manitoba. I
 currently work for [MASC][masc] as a Programmer Analyst. I hold a Bachelor of
 Science (with honours) in Computer Science from [Brandon University][brandonu].
 

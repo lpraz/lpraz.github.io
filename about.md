@@ -5,8 +5,9 @@ permalink: /about/
 ---
 
 I am Leila Praznik (she/her), a software developer in Brandon, Manitoba. I
-currently work for [MASC][masc] as a Programmer Analyst. I hold a Bachelor of
-Science (with honours) in Computer Science from [Brandon University][brandonu].
+currently work for [MASC][masc] under the title of Software Developer. I hold
+a Bachelor of Science (with honours) in Computer Science from
+[Brandon University][brandonu].
 
 This blog is for observing things I run into as I continue to learn the craft
 of programming and all it has to offer. It is useful to me as a tool for

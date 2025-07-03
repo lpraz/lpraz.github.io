@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="{{ .Site.Language.LanguageCode }}">
+    <head>
+        <title>{{ .Page.Title }}</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>{{ .Site.Title }}</h1>
+        </header>
+
+        <main>
+            {{- block "main" . }}{{- end }}
+        </main>
+
+        <footer>
+            <p>Footer.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+baseURL = 'https://lpraz.github.io/'
+languageCode = 'en-ca'
+title = 'Leila Praznik'
+disableKinds = ['section', 'taxonomy', 'term']

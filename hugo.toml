@@ -1,4 +1,17 @@
 baseURL = 'https://lpraz.github.io/'
 languageCode = 'en-ca'
 title = 'Leila Praznik'
-disableKinds = ['section', 'taxonomy', 'term']
+disableKinds = ['taxonomy', 'term']
+pluralizeListTitles = false
+
+mainSections = ['blog']
+
+[menus]
+    [[menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 10
+    [[menus.main]]
+        name = 'About'
+        pageRef = '/about/'
+        weight = 20

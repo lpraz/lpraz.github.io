@@ -1,6 +1,12 @@
 {{ define "main" }}
     {{ .Content }}
-    {{ range .Site.RegularPages }}
-        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> 
+    {{ range .Site.Sections }}
+        {{ if in $.Site.MainSections .Section }}
+            <h2>{{ .Title }}</h2>
+            {{ range where $.Site.RegularPages "Section" .Section }}
+                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3> 
+                <p>{{ time.Format "January 2, 2006" .Date }}</p>
+            {{ end }}
+        {{ end }}
     {{ end }}
 {{ end }}

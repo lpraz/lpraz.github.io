@@ -2,4 +2,4 @@
 title: "test"
 ---
 
-This is some test content. A listing of blog articles should be below.
+This is the devblog of Leila Praznik (she/her). For a short bio, read [here](about).

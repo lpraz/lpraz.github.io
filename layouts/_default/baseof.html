@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="{{ .Site.Language.LanguageCode }}">
-    <head>
-        <title>{{ .Page.Title }}</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>{{ .Site.Title }}</h1>
-        </header>
+<head>
+    <title>{{ .Page.Title }}</title>
+</head>
 
-        <main>
-            {{- block "main" . }}{{- end }}
-        </main>
+<body>
+    <header>
+        <h1>{{ .Site.Title }}</h1>
+        <nav>
+            <ul>
+                {{ range site.Menus.main }}
+                <li>
+                    {{ if $.IsMenuCurrent .Menu . }}
+                    <a aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
+                    {{ else }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </header>
 
-        <footer>
-            <p>Footer.</p>
-        </footer>
-    </body>
+    <main>
+        {{- block "main" . }}{{- end }}
+    </main>
+
+    <footer>
+        <p>Footer.</p>
+    </footer>
+</body>
+
 </html>

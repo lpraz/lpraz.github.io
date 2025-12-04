@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <h2>{{ .Name }}</h2>
+    {{ .Content }}
+    {{ range where .Site.RegularPages "Section" .Section }}
+        <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+        <p>{{ time.Format "January 2, 2006" .Date }}</p>
+    {{ end }}
+{{ end }}
